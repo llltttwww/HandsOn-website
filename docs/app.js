@@ -53,15 +53,17 @@ fetch('assets/tasks.json').then(response => { if (!response.ok) throw new Error(
 
 const core = [
   ['OpenWAM',29.1,40.8,23.8,22.1,11],['FastWAM',26.4,42.7,20.2,15.3,9],['π₀.₅',24.9,40.4,14.6,19.7,10],['DM0.5',21.4,37.7,10.0,16.7,9],
-  ['LingBot-VLA',19.7,26.9,14.3,17.9,8],['HY-Embodied',18.9,27.1,13.3,16.4,8],['Motus',18.1,30.1,11.5,12.3,5],['Spatial Forcing',12.4,17.9,8.5,10.9,3]
+  ['LingBot-VLA',19.7,26.9,14.3,17.9,8],['HY-Embodied',18.9,27.1,13.3,16.4,8],['Motus',18.1,30.1,11.5,12.3,5],['Spatial Forcing',12.4,17.9,8.5,10.9,3],
+  ['GPT-6 (move_eef)',5.2,7.6,1.1,7.3,1]
 ];
 const transfer = [
   ['OpenWAM',0.4,12.9,14.8,12.5,10.2],['Motus',0.1,12.4,15.8,9.5,11.7],['π₀.₅',0.1,11.9,14.0,11.7,8.3],['FastWAM',0.0,11.8,12.5,11.3,11.3],
   ['DM0.5',0.9,11.2,9.2,14.4,8.8],['Spatial Forcing',0.1,10.3,12.7,7.9,10.5],['LingBot-VLA',0.0,9.3,13.3,4.2,11.3],['HY-Embodied',0.0,6.9,9.6,4.6,6.2]
 ];
 function fillResults(data, target, integerLast = false) {
-  const maxima = Array.from({length:5},(_, i) => Math.max(...data.map(row => row[i+1])));
-  target.innerHTML = data.map(row => `<tr><th scope="row">${row[0]}</th>${row.slice(1).map((value,i) => `<td><span class="${i === 0 ? 'score-cell ' : ''}${value === maxima[i] ? 'best' : ''}">${integerLast && i === 4 ? value : value.toFixed(1)}</span></td>`).join('')}</tr>`).join('');
+  const prompted = row => row[0].startsWith('GPT-6');
+  const maxima = Array.from({length:5},(_, i) => Math.max(...data.filter(row => !prompted(row)).map(row => row[i+1])));
+  target.innerHTML = data.map(row => `<tr${prompted(row) ? ' class="prompted-reference"' : ''}><th scope="row">${row[0]}</th>${row.slice(1).map((value,i) => `<td><span class="${i === 0 ? 'score-cell ' : ''}${!prompted(row) && value === maxima[i] ? 'best' : ''}">${integerLast && i === 4 ? value : value.toFixed(1)}</span></td>`).join('')}</tr>`).join('');
 }
 fillResults(core, document.querySelector('#core-results'), true);
 fillResults(transfer, document.querySelector('#transfer-results'));

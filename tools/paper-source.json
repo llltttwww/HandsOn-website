@@ -1,12 +1,12 @@
 {
   "source": "Current author-approved arXiv manuscript",
-  "source_revision": "9dd5e12dd6896eea13b95b95b4f9d50ad5c92b1f",
-  "source_pdf_sha256": "0b5f61830a109859bf29343e930baf926cd3215363cb7b1ba917a140e96c08bb",
-  "website_pdf_sha256": "0b5f61830a109859bf29343e930baf926cd3215363cb7b1ba917a140e96c08bb",
-  "pages": 47,
-  "website_pdf_bytes": 33850691,
+  "source_revision": "8a7634f5c9361d8be87956eaf37424d3109797a6",
+  "source_pdf_sha256": "0fcff6d878921b33378474479c48ad210650b946d911f97a474cff74409f8d3e",
+  "website_pdf_sha256": "f960fe4d9b7466f0b428cbbba676cd1f108a14e6208ac13d8b13bfd01a2ccdf0",
+  "pages": 56,
+  "website_pdf_bytes": 6495176,
+  "retired_internal_labels_removed": 0,
   "all_other_extracted_text_preserved": true,
-  "text_validation": "Exact extracted text on all 47 pages compared with the manuscript before company-logo addition",
-  "image_compression": "Compiled PDF copied without recompression; company logo remains vector artwork",
-  "company_logo_placement": "Lower-right of first-page title and author information block; ordinary text affiliation retained"
+  "text_validation": "Exact extracted text on every page; no textual post-processing",
+  "image_compression": "RGB JPEG quality 87; layout and page count preserved"
 }

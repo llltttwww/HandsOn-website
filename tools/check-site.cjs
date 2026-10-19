@@ -52,6 +52,6 @@ const path = require('node:path');
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No tablet overflow');
  const pdf=await context.request.get(new URL('assets/HandsOn.pdf',base).href);assert(pdf.ok(),'Paper download');assert((await pdf.body()).subarray(0,4).toString()==='%PDF','Valid PDF header');
  assert(!errors.length,'Browser errors: '+errors.join(','));assert(!missing.length,'Missing assets: '+JSON.stringify(missing));
- const result={passed:true,taskCount:66,coreModels:8,transferModels:8,playback,overview,mobile:sizes,errors,missing};
+ const result={passed:true,taskCount:66,coreModels:9,transferModels:8,transferPromptedControllers:1,playback,overview,mobile:sizes,errors,missing};
  fs.writeFileSync(path.join(out,'checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1);});

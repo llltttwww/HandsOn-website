@@ -21,7 +21,9 @@ The homepage has its own public repository; the benchmark repository is separate
 `dist/index.html`, `style.css`, and `app.js` contain the page. The task catalog is
 `dist/assets/tasks.json`. All media are local; the page needs no third-party CDN,
 analytics, database, or build service. Core-50 and Transfer-16 results follow the
-manuscript; DP is reported separately with its comparison caveat.
+manuscript; DP is reported separately with its comparison caveat. GPT-6
+success is shown with its own sample and interaction budgets. The Transfer-16
+GPT-6 table contains success rates only. The site displays only measured results.
 
 The page follows the conventional structure of research project pages such as
 RoboCasa and Nerfies, without copying their code or media.
@@ -29,16 +31,19 @@ RoboCasa and Nerfies, without copying their code or media.
 The opening figure retains the author's requested tall composition, natural arm
 pose. The dangling cable beside the leftmost freestanding hand is removed.
 Its source image is `dist/assets/handson-overview.jpg`
-(SHA-256 `0faca42c35d1d03a4f1ec6dc3809dc69ae7855f052dfca9c0f57b8b96d6e2d4f`).
-The responsive WebP files and social card derive from this image. It is intentionally
-independent of the current paper's first figure.
+(SHA-256 `28d0c87f2c0242cd58bb604da5affdc4a2245aad07fd36b2e8555a36cb84d102`).
+The responsive WebP files and social card derive from this image. It retains its tall composition independently of the paper's first figure.
+The score panel now includes GPT-6; `tools/results-source.json` records the
+verified manuscript data and `tools/update-results-artwork.py` rebuilds it.
+Video assets are maintained separately.
 
-The author block and download PDF follow the current author-approved arXiv
-manuscript, revision `9dd5e12dd6896eea13b95b95b4f9d50ad5c92b1f`. The PDF has 47 pages.
-The download is the compiled manuscript, with the approved HandsOn logo in the overview
-and the vector NatureWill wordmark at the lower-right of the first-page title information block.
-The NatureWill affiliation remains ordinary text.
-All extracted text is verified exactly unchanged against the manuscript before the company-logo addition. Details and hashes are in `tools/paper-source.json`.
+The download PDF follows the current author-approved arXiv manuscript,
+revision `8a7634f5c9361d8be87956eaf37424d3109797a6`, with 56 pages. It includes
+GPT-6 with `move_eef`, the unified 660-trial results, updated comparisons,
+and the API-cost and wall-clock rationale for ten episodes per task.
+The approved HandsOn and NatureWill marks remain in place. Image compression
+preserves the exact extracted text of every page; hashes and provenance are in
+`tools/paper-source.json`.
 Author order, affiliations, and contribution markers are in `tools/author-source.json`.
 The BibTeX citation remains unchanged.
 

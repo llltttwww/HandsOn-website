@@ -1,0 +1,9 @@
+{
+  "manuscript_revision": "8a7634f5c9361d8be87956eaf37424d3109797a6",
+  "data_sha256": "0b39a05051ceb45c00e68a7da290ce63deaba3a7436b77504f3f07dc0ad9a50d",
+  "comparison_sha256": "89022eea03b3ef10b969553fe4d5560b441b5135b4aa178f79fd836af93eb6d4",
+  "chart_scope": "Core-50 task-and-episode bootstrap intervals for eight trained checkpoints and GPT-6",
+  "preserved_artwork": "Retained tall composition, robot/asset artwork, and environment montage",
+  "video_assets_modified": false,
+  "hero_sha256": "28d0c87f2c0242cd58bb604da5affdc4a2245aad07fd36b2e8555a36cb84d102"
+}
