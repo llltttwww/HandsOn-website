@@ -42,10 +42,11 @@ at a small size in the upper-right corner of the hero. `dist/assets/naturewill-l
 asset (SHA-256 `52687b0b6e2459d46c9efef3d0dbcd00242735e9743774bc6d2badbe6c9dc13d`).
 
 The download PDF follows the current author-approved arXiv manuscript,
-revision `b30e63fb2dd792d73085ea909459b64bdfe338a6`, with 56 pages. It includes
+working tree based on `92a2920`, with 56 pages. The repository links point to
+`TsinghuaC3I/HandsOn`, and the author affiliations match the current Overleaf source. It includes
 GPT-6 with `move_eef`, the unified 660-trial results, updated comparisons,
 and the API-cost and wall-clock rationale for ten episodes per task.
-The HandsOn project mark remains; the company logo is omitted. Image compression
+The HandsOn project mark and small NatureWill header logo are retained. Image compression
 preserves the exact extracted text of every page; hashes and provenance are in
 `tools/paper-source.json`.
 Author order, affiliations, and contribution markers are in `tools/author-source.json`.
