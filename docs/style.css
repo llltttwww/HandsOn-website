@@ -11,3 +11,8 @@
 
 /* Prompted controller results use their own sample and interaction budgets. */
 .prompted-reference th,.prompted-reference td{border-top:2px solid #dba17c;background:#fff8f3}.prompted-reference th{color:#98552d}.prompted-transfer{margin-top:32px}.prompted-transfer h3{font-size:20px;margin-bottom:9px}.prompted-transfer>p{font-size:14px;color:var(--muted);margin-bottom:18px}.gpt6-copy p{margin-bottom:18px;color:var(--muted);line-height:1.75}.gpt6-figure{margin:30px auto 0;max-width:1040px}.gpt6-figure img{width:100%;height:auto}.gpt6-copy{padding:0;max-width:800px}
+
+/* Official NatureWill logotype, shared with the manuscript and repository. */
+.hero{position:relative}
+.company-logo{position:absolute;top:14px;right:28px;width:120px;height:auto}
+@media(max-width:600px){.company-logo{top:9px;right:20px;width:96px}}

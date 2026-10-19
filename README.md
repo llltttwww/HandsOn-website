@@ -37,7 +37,9 @@ The score panel now includes GPT-6; `tools/results-source.json` records the
 verified manuscript data and `tools/update-results-artwork.py` rebuilds it.
 Video assets are maintained separately.
 
-The hero author block uses text affiliations without a company logo.
+The hero retains text affiliations and displays the official NatureWill logotype
+at a small size in the upper-right corner of the hero. `dist/assets/naturewill-logotype.svg` matches the manuscript
+asset (SHA-256 `52687b0b6e2459d46c9efef3d0dbcd00242735e9743774bc6d2badbe6c9dc13d`).
 
 The download PDF follows the current author-approved arXiv manuscript,
 revision `b30e63fb2dd792d73085ea909459b64bdfe338a6`, with 56 pages. It includes
