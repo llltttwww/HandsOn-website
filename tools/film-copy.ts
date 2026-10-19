@@ -2,7 +2,7 @@
 
 export const TITLE = "HandsOn";
 export const SUBTITLE = "A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation";
-export const REPO = "github.com/llltttwww/HandsOn";
+export const REPO = "github.com/TsinghuaC3I/HandsOn";
 
 export const COPY = {
   problem: {
