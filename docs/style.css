@@ -11,7 +11,3 @@
 
 /* Prompted controller results use their own sample and interaction budgets. */
 .prompted-reference th,.prompted-reference td{border-top:2px solid #dba17c;background:#fff8f3}.prompted-reference th{color:#98552d}.prompted-transfer{margin-top:32px}.prompted-transfer h3{font-size:20px;margin-bottom:9px}.prompted-transfer>p{font-size:14px;color:var(--muted);margin-bottom:18px}.gpt6-copy p{margin-bottom:18px;color:var(--muted);line-height:1.75}.gpt6-figure{margin:30px auto 0;max-width:1040px}.gpt6-figure img{width:100%;height:auto}.gpt6-copy{padding:0;max-width:800px}
-
-/* Company wordmark supplied with the author-approved manuscript. */
-.company-wordmark{display:block;width:180px;max-width:100%;height:auto;margin:22px auto 0}
-@media(max-width:600px){.company-wordmark{width:154px;margin-top:18px}}

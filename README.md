@@ -37,17 +37,13 @@ The score panel now includes GPT-6; `tools/results-source.json` records the
 verified manuscript data and `tools/update-results-artwork.py` rebuilds it.
 Video assets are maintained separately.
 
-The hero author block includes the supplied NatureWill company wordmark.
-`dist/assets/naturewill-logotype.svg` is the unmodified SVG from the
-author-approved manuscript; its original colors and proportions are preserved.
-It is positioned after the author/affiliation notes so author synchronization
-keeps it in place.
+The hero author block uses text affiliations without a company logo.
 
 The download PDF follows the current author-approved arXiv manuscript,
-revision `8a7634f5c9361d8be87956eaf37424d3109797a6`, with 56 pages. It includes
+revision `b30e63fb2dd792d73085ea909459b64bdfe338a6`, with 56 pages. It includes
 GPT-6 with `move_eef`, the unified 660-trial results, updated comparisons,
 and the API-cost and wall-clock rationale for ten episodes per task.
-The approved HandsOn and NatureWill marks remain in place. Image compression
+The HandsOn project mark remains; the company logo is omitted. Image compression
 preserves the exact extracted text of every page; hashes and provenance are in
 `tools/paper-source.json`.
 Author order, affiliations, and contribution markers are in `tools/author-source.json`.
