@@ -1,5 +1,5 @@
 {
-  "manuscript_revision": "907efe45436a2d82efe81904e1cf7d8a3f7b2207",
+  "manuscript_revision": "8a7634f",
   "duration_seconds": 120,
   "frames": 3600,
   "fps": 30,
@@ -7,18 +7,21 @@
     1280,
     720
   ],
-  "video_sha256": "76aa717010698c59b73a8ab45e05a950a80e99ff75e691f2e6d42e2d7fd2d8da",
-  "poster_sha256": "b623d007b2916742a2ea8247f4416e7e02c2e202ef6162b31744811a82daf251",
-  "poster_time_seconds": 16.8,
+  "video_sha256": "be8c3db7745fe7ee8e8bf1528933eb6cc4b3433fc9a6463afee31c511822471c",
+  "poster_sha256": "670c850423e4845372ecdd4fae78052a9f5a4ff3087305d111319531a2a7514c",
+  "poster_time_seconds": 16.4,
   "source_film": "dexomni-film/out/HandsOn_film_web.mp4 (1920x1080)",
-  "source_film_sha256": "5e8d540b573e142fc869b2f91172cbdba0576088a3cb631f7c477ece4733f136",
+  "source_film_sha256": "48ecb2eba472d63cec58e6cb8c092213d98e48980eb34e9ae2db8f8b2e3b3f18",
   "render": "Remotion 4.0.532 FilmV2 composition; web encode 1280 px, libx264 CRF 25, AAC 96 kb/s from the score WAV",
   "changes": [
+    "GPT-6 prompted reference (5.2 % Core-50, 1.9 % Transfer-16, 29 of 660 trials) as its own beat",
+    "Ten evaluated methods, not eight checkpoints, in the title statistics",
+    "'Best trained checkpoint' wording now that a prompted reference is in the table",
     "HandsOn name, approved grip logo and the RTX hero with the 3D logo",
     "Wording aligned with the HandsOn arXiv manuscript and this page",
     "Enlarged demonstrations use tasks of the project's own design only",
     "Six physical-platform recordings, labelled qualitative",
-    "Quantitative charts shown without adjacent clips; Open Laptop angle curve restored",
+    "Quantitative charts without adjacent clips; Open Laptop angle curve restored",
     "Softened transitions: no frame-to-frame luminance jump above 40"
   ],
   "soundtrack": "Original score, aligned to the film's cue timeline"
