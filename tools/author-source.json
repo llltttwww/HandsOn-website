@@ -1,11 +1,11 @@
 {
-  "source": "Current author-approved arXiv manuscript root.tex",
-  "revision": "a9bdb33fa6cab4088590dbe1799bc9520f9bc9b0",
-  "root_tex_sha256": "b078e2ed2d1cffa586429d4ca9902cbb3565b2b5900e4a4dbaf96041682fe52e",
+  "source": "Local arXiv root.tex author block verified against the live HandsOn-arXiv Overleaf source and PDF",
+  "revision": "b30e63fb2dd792d73085ea909459b64bdfe338a6+working-tree",
+  "root_tex_sha256": "522508e99947fc02588888220e209fe5cf3e31b7ad151f83c30a4cbb377f8430",
   "authors": [
     {
       "name": "Tianwei Luo",
-      "markers": "1,*,†"
+      "markers": "1,3,*,†"
     },
     {
       "name": "Yiming He",
@@ -65,11 +65,11 @@
     },
     {
       "name": "Haozhan Li",
-      "markers": "1"
+      "markers": "1,3"
     },
     {
       "name": "Ning Ding",
-      "markers": "1,‡"
+      "markers": "1,3,‡"
     }
   ],
   "institutions": {
@@ -82,5 +82,9 @@
     "*": "Equal contribution",
     "†": "Project lead",
     "‡": "Corresponding author"
-  }
+  },
+  "verified_on": "2026-10-19",
+  "base_revision": "b30e63fb2dd792d73085ea909459b64bdfe338a6",
+  "root_tex_has_uncommitted_changes": true,
+  "source_project": "HandsOn-arXiv (Overleaf)"
 }
