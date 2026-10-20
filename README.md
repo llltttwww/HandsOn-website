@@ -38,7 +38,7 @@ verified manuscript data and `tools/update-results-artwork.py` rebuilds it.
 Video assets are maintained separately.
 
 The hero retains text affiliations and displays the official NatureWill logotype
-at a small size in the upper-right corner of the hero. `dist/assets/naturewill-logotype.svg` matches the manuscript
+at a small size in the upper-left corner of the hero. `dist/assets/naturewill-logotype.svg` matches the manuscript
 asset (SHA-256 `52687b0b6e2459d46c9efef3d0dbcd00242735e9743774bc6d2badbe6c9dc13d`).
 
 The archived local PDF follows the current author-approved arXiv manuscript,
