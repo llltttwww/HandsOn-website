@@ -41,7 +41,7 @@ The hero retains text affiliations and displays the official NatureWill logotype
 at a small size in the upper-right corner of the hero. `dist/assets/naturewill-logotype.svg` matches the manuscript
 asset (SHA-256 `52687b0b6e2459d46c9efef3d0dbcd00242735e9743774bc6d2badbe6c9dc13d`).
 
-The download PDF follows the current author-approved arXiv manuscript,
+The archived local PDF follows the current author-approved arXiv manuscript,
 working tree based on `92a2920`, with 56 pages. The repository links point to
 `TsinghuaC3I/HandsOn`, and the author affiliations match the current Overleaf source. It includes
 GPT-6 with `move_eef`, the unified 660-trial results, updated comparisons,
@@ -52,7 +52,7 @@ preserves the exact extracted text of every page; hashes and provenance are in
 Author order, affiliations, and contribution markers are in `tools/author-source.json`.
 The Paper links and BibTeX citation use the published arXiv record
 `2610.26765` (DOI `10.48550/arXiv.2610.26765`, category `cs.RO`).
-The separate PDF button retains the locally hosted download.
+The single Paper button links directly to the official arXiv PDF.
 
 The overview film (`dist/assets/overview.mp4`) is rendered from the `FilmV2` composition of
 the separately maintained film project (`dexomni-film`, deliverable `out/HandsOn_film_web.mp4`)
