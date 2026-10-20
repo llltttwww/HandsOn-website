@@ -50,7 +50,9 @@ The HandsOn project mark and small NatureWill header logo are retained. Image co
 preserves the exact extracted text of every page; hashes and provenance are in
 `tools/paper-source.json`.
 Author order, affiliations, and contribution markers are in `tools/author-source.json`.
-The BibTeX citation remains unchanged.
+The Paper links and BibTeX citation use the published arXiv record
+`2610.26765` (DOI `10.48550/arXiv.2610.26765`, category `cs.RO`).
+The separate PDF button retains the locally hosted download.
 
 The overview film (`dist/assets/overview.mp4`) is rendered from the `FilmV2` composition of
 the separately maintained film project (`dexomni-film`, deliverable `out/HandsOn_film_web.mp4`)
