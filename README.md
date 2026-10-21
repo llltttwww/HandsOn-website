@@ -54,12 +54,12 @@ The Paper links and BibTeX citation use the published arXiv record
 `2610.26765` (DOI `10.48550/arXiv.2610.26765`, category `cs.RO`).
 The single Paper button links to the official arXiv abstract page.
 
-The overview film (`dist/assets/overview.mp4`) is rendered from the `FilmV2` composition of
-the separately maintained film project (`dexomni-film`, deliverable `out/HandsOn_film_web.mp4`)
-and re-encoded for the page at 1280 px; its poster is the title card at 16.8 s. Source,
-encode settings and hashes are in `tools/video-source.json`. Its wording follows the
-current manuscript and this page, including the conclusion that instruction grounding and
-physical contact both matter, and regression controls for demonstration count and duration.
+The overview film (`dist/assets/overview.mp4`) is rendered from the `Promo` composition of
+the separately maintained film project (`dexomni-film`, deliverable `out/HandsOn_promo_web.mp4`)
+and re-encoded for the page at 1280 px; its poster is the title card at 16.0 s. Source, encode
+settings and hashes are in `tools/video-source.json`. Its numbers follow the current manuscript
+(`92a2920`), its links point to `TsinghuaC3I/HandsOn`, arXiv `2610.26765` and the Hugging Face
+dataset, and its closing hero carries the same cable repair as the opening figure.
 
 `tools/film-copy.ts` is the copy of the earlier line-art cut (`Film` composition), kept for
 reference; editing it does not change the published film.

@@ -1,5 +1,5 @@
 {
-  "manuscript_revision": "8a7634f",
+  "manuscript_revision": "92a2920",
   "duration_seconds": 120,
   "frames": 3600,
   "fps": 30,
@@ -7,22 +7,21 @@
     1280,
     720
   ],
-  "video_sha256": "be8c3db7745fe7ee8e8bf1528933eb6cc4b3433fc9a6463afee31c511822471c",
-  "poster_sha256": "670c850423e4845372ecdd4fae78052a9f5a4ff3087305d111319531a2a7514c",
-  "poster_time_seconds": 16.4,
-  "source_film": "dexomni-film/out/HandsOn_film_web.mp4 (1920x1080)",
-  "source_film_sha256": "48ecb2eba472d63cec58e6cb8c092213d98e48980eb34e9ae2db8f8b2e3b3f18",
-  "render": "Remotion 4.0.532 FilmV2 composition; web encode 1280 px, libx264 CRF 25, AAC 96 kb/s from the score WAV",
+  "video_sha256": "fbe081d7a0c84aff25c6566c7fe77993d563a3bbcaf7b809a842516e28bc7257",
+  "poster_sha256": "93c1d03e6cf26fd97ed33ea601ea860f916888523124fa3fbe1c7ea65ae542ad",
+  "poster_time_seconds": 16.0,
+  "source_film": "dexomni-film/out/HandsOn_promo_web.mp4 (1920x1080)",
+  "source_film_sha256": "23a85fdac830339003ef5ae9fc421d08e4c9605fff70f77df06199485125519d",
+  "render": "Remotion 4.0.532 Promo composition; web encode 1280 px, libx264 CRF 25, AAC 96 kb/s from the score WAV",
   "changes": [
-    "GPT-6 prompted reference (5.2 % Core-50, 1.9 % Transfer-16, 29 of 660 trials) as its own beat",
-    "Ten evaluated methods, not eight checkpoints, in the title statistics",
-    "'Best trained checkpoint' wording now that a prompted reference is in the table",
-    "HandsOn name, approved grip logo and the RTX hero with the 3D logo",
-    "Wording aligned with the HandsOn arXiv manuscript and this page",
-    "Enlarged demonstrations use tasks of the project's own design only",
-    "Six physical-platform recordings, labelled qualitative",
-    "Quantitative charts without adjacent clips; Open Laptop angle curve restored",
-    "Softened transitions: no frame-to-frame luminance jump above 40"
+    "New promotional cut (Promo composition) replacing the FilmV2 overview",
+    "Repository, dataset and paper links follow the transferred TsinghuaC3I repository and arXiv 2610.26765",
+    "Closing hero: loose cable beside the leftmost freestanding hand removed, matching this page's figure repair",
+    "Enlarged demonstrations use tasks of the project's own design only; every clip labelled as a human demonstration",
+    "Real-robot rollouts labelled qualitative, with no success rate",
+    "Quantitative charts without adjacent clips; GPT-6 shown as its 660 scored trials (29 successes)",
+    "Lineup shows only hands listed in the release's robot catalog",
+    "Softened transitions: no frame-to-frame luminance jump above 14"
   ],
   "soundtrack": "Original score, aligned to the film's cue timeline"
 }
