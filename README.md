@@ -54,15 +54,15 @@ The Paper links and BibTeX citation use the published arXiv record
 `2610.26765` (DOI `10.48550/arXiv.2610.26765`, category `cs.RO`).
 The single Paper button links to the official arXiv abstract page.
 
-The overview film (`dist/assets/overview.mp4`) is rendered from the `Promo` composition of
-the separately maintained film project (`dexomni-film`, deliverable `out/HandsOn_promo_web.mp4`)
-and re-encoded for the page at 1280 px; its poster is the title card at 16.0 s. Source, encode
-settings and hashes are in `tools/video-source.json`. Its numbers follow the current manuscript
-(`92a2920`), its links point to `TsinghuaC3I/HandsOn`, arXiv `2610.26765` and the Hugging Face
-dataset, and its closing hero carries the same cable repair as the opening figure.
+The overview film (`dist/assets/overview.mp4`) is the 1080p cut of the separately maintained
+`handson-promo-2min` project (deliverable `out/HandsOn_promo_2min.mp4`), re-encoded for the page
+at 1920 px with CRF 24; its poster is the title card at 12.0 s. Source, encode settings and
+hashes are in `tools/video-source.json`. Its numbers follow the current manuscript (`92a2920`),
+its links point to `TsinghuaC3I/HandsOn`, arXiv `2610.26765` and the Hugging Face dataset, and
+its closing hero carries the same cable repair as the opening figure.
 
-`tools/film-copy.ts` is the copy of the earlier line-art cut (`Film` composition), kept for
-reference; editing it does not change the published film.
+`tools/film-copy.ts` is the copy of the earlier line-art cut (`Film` composition) from
+`dexomni-film`, kept for reference; editing it does not change the published film.
 
 ## Updating
 

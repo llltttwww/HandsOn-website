@@ -4,24 +4,24 @@
   "frames": 3600,
   "fps": 30,
   "dimensions": [
-    1280,
-    720
+    1920,
+    1080
   ],
-  "video_sha256": "fbe081d7a0c84aff25c6566c7fe77993d563a3bbcaf7b809a842516e28bc7257",
-  "poster_sha256": "93c1d03e6cf26fd97ed33ea601ea860f916888523124fa3fbe1c7ea65ae542ad",
-  "poster_time_seconds": 16.0,
-  "source_film": "dexomni-film/out/HandsOn_promo_web.mp4 (1920x1080)",
-  "source_film_sha256": "23a85fdac830339003ef5ae9fc421d08e4c9605fff70f77df06199485125519d",
-  "render": "Remotion 4.0.532 Promo composition; web encode 1280 px, libx264 CRF 25, AAC 96 kb/s from the score WAV",
+  "video_sha256": "1e82f7c9309146ea738785098d6d3d74ccd2ba741388cf2c62f6e94a58e257fb",
+  "poster_sha256": "d3e6ffb0321ef854efc498c3a50261fb293e054e1dabd921ac2c009fe08c3149",
+  "poster_time_seconds": 12.0,
+  "source_film": "handson-promo-2min/out/HandsOn_promo_2min.mp4 (1920x1080)",
+  "source_film_sha256": "e2a4bc81db83b7290f62c37c6969e958e7d5b9510630823f0eba89f887ae58dc",
+  "render": "Python compositor (skia, PyAV) src/film.py; web encode 1920 px, libx264 CRF 24 preset slow, bt709, AAC 128 kb/s",
   "changes": [
-    "New promotional cut (Promo composition) replacing the FilmV2 overview",
-    "Repository, dataset and paper links follow the transferred TsinghuaC3I repository and arXiv 2610.26765",
-    "Closing hero: loose cable beside the leftmost freestanding hand removed, matching this page's figure repair",
-    "Enlarged demonstrations use tasks of the project's own design only; every clip labelled as a human demonstration",
-    "Real-robot rollouts labelled qualitative, with no success rate",
-    "Quantitative charts without adjacent clips; GPT-6 shown as its 660 scored trials (29 successes)",
-    "Lineup shows only hands listed in the release's robot catalog",
-    "Softened transitions: no frame-to-frame luminance jump above 14"
+    "New 1080p cut from the handson-promo-2min project replacing the dexomni-film Promo composition",
+    "Main shots are 1080p path-traced re-renders of V16 demonstrations with moving cameras; palm callouts follow the recorded palm poses and finger joints",
+    "Enlarged demonstrations use tasks of the project's own design only; no mouse, marble or propeller close-ups",
+    "Real-robot rollouts from the raw recordings, labelled qualitative with their playback speed and no success rate",
+    "Arm and hand lineup restricted to the release's robot catalog; all reported results stated as ROKAE AR5-08 + Wuji Hand 1 + PhysX",
+    "Failure numbers, Transfer-16 results and GPT-6 per-task trials follow manuscript 92a2920",
+    "Closing hero: the logo render with the loose cable removed, matching this page's figure repair",
+    "Section dissolves through the background; largest frame-to-frame luminance change 25.5, at a beat-synced cut"
   ],
-  "soundtrack": "Original score, aligned to the film's cue timeline"
+  "soundtrack": "Original score synthesized for this cut, 90 BPM; cuts land on its bar grid; -16 LUFS integrated, true peak below -1 dBTP"
 }
